@@ -1,0 +1,44 @@
+{
+  "name": "nodejs-complete-guide",
+  "version": "1.0.0",
+  "description": "NodeJs - Academind",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "13.12.0"
+  },
+  "author": "Shawn Pereira",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^3.1.1",
+    "csurf": "^1.11.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.0.2",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.13.0",
+    "helmet": "^5.0.2",
+    "mongodb": "^4.1.4",
+    "mongoose": "^6.0.13",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "mysql2": "^2.3.3-rc.0",
+    "nodemailer": "^6.7.1",
+    "pdfkit": "^0.13.0",
+    "pug": "^3.0.2",
+    "sequelize": "^6.9.0",
+    "stripe": "^8.200.0"
+  }
+}
